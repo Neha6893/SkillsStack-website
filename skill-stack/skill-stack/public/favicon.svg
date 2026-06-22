@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">SkillStack Favicon</title>
+  <desc id="desc">Square icon with stacked S monogram in a blue-cyan gradient.</desc>
+  <defs>
+    <linearGradient id="ssGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C2FF"/>
+      <stop offset="100%" stop-color="#3A7AFE"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Optional rounded background for contrast on dark tabs -->
+  <rect x="4" y="4" width="120" height="120" rx="24" ry="24" fill="#ffffff" opacity="0.9"/>
+
+  <!-- Stacked S mark -->
+  <g transform="translate(16,16)" filter="url(#softShadow)">
+    <rect x="0" y="0" rx="10" ry="10" width="80" height="26" fill="url(#ssGradient)"/>
+    <path fill="url(#ssGradient)" d="M12,52 a12,12 0 0 1 12,-12 h40 a12,12 0 0 0 12,-12 v-6 h12 v6 a24,24 0 0 1 -24,24 H24 a12,12 0 0 0 -12,12 v6 H0 v-6 a18,18 0 0 1 12,-16z"/>
+    <rect x="0" y="80" rx="10" ry="10" width="80" height="26" fill="url(#ssGradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200">
+  <!-- Top Layer -->
+  <polygon points="100,20 180,60 100,100 20,60" fill="#FFD43B"/>
+  <!-- Middle Layer -->
+  <polygon points="100,60 180,100 100,140 20,100" fill="#00bfa6ff"/>
+  <!-- Bottom Layer -->
+  <polygon points="100,100 180,140 100,180 20,140" fill="#0F2B50"/>
+  
+  <!-- Text -->
+  <text x="210" y="115" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="64" fill="#0F2B50">
+    SkillStack
+  </text>
+</svg>
